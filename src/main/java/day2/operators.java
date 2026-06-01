@@ -43,10 +43,10 @@ public class operators {
 
         // Relational operators -> Binary
 
-        int a = 7;
-        int b = 5;
-        int c = 7;
-        int d = 7;
+//        int a = 7;
+//        int b = 5;
+//        int c = 7;
+//        int d = 7;
 //
 //        System.out.println(a > b);  // T
 //        System.out.println(a < b);  // F
@@ -72,20 +72,43 @@ public class operators {
 //                         // F        T
 
 
-        int adbi = 20;
-        int almi = 15;
-        boolean tamioz = true;
-
-        if (adbi >= almi || tamioz)
-        {
-            System.out.println("ادخل علمي"); // T
-        }
-        else
-        {
-            System.out.println("ادخل ادبي"); // F
-        }
+//        int adbi = 20;
+//        int almi = 15;
+//        boolean tamioz = true;
+//
+//        if (adbi >= almi || tamioz)
+//        {
+//            System.out.println("ادخل علمي"); // T
+//        }
+//        else
+//        {
+//            System.out.println("ادخل ادبي"); // F
+//        }
 
         // Increment and Decrement operators
+          int num = 10;
+        System.out.println(num++); // post increment -> num + 1 (Save in memory )
+        System.out.println(num); // 11
+        System.out.println(++num); // 12 pre increment =>
+
+        int number = 5;
+        System.out.println(number++); // 5
+        System.out.println(number); //6
+        System.out.println(++number);  // 7
+
+        // Ternery operators
+        int a = 18, b = 10, c;
+        c = (a > b) ? a : b ; // if a > b is true then c = a false c = b
+        System.out.println("The largest value is : " + c);
+
+        if(a > b)
+               c = a;
+        else
+               c = b;
+
+
+
+
 
     }
 }
